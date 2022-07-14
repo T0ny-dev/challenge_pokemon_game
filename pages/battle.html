@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/select-character.css">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../css/battle.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Battle Final</h1>
+  </header>
+  <div class="battle">
+    <div class="boss">
+      <img src="../img/mewtwoboss.gif" alt="">
+      <div class="boss_life"><p><img src="../img/icon_heart.webp" alt=""></p><p id="counterBoss">200</p></div>
+    </div>
+    <div class="battle_ui"><div class="battle_ui_info"></div><p id="uiAlert">It's Mewtwo! defeat him to win the game <br>in this version him do not attack</p></div>
+    <div class="select">
+      <div class="select_player"><img src="../img/ash_player.jfif" alt=""></div>
+      <div class="select_pokemons">
+        <div class="select_img">
+          <img src="../img/squartle.gif" alt="">
+          <div class="select_life"><p><img src="../img/icon_heart.webp" alt=""></p><p id="counter1">100</p></div>
+        </div>
+        <div class="select_img">
+          <img src="../img/charmander.gif" alt="">
+          <div class="select_life"><p><img src="../img/icon_heart.webp" alt=""></p><p id="counter2">100</p></div>
+        </div>
+        <div class="select_img">
+          <img src="../img/pikachu.gif" alt="">
+          <div class="select_life"><p><img src="../img/icon_heart.webp" alt=""></p><p id="counter3">100</p></div>
+        </div>
+        <button class="main_ataque" id="superAttack">Super Attack</button>
+      </div>
+    </div>
+    <div class="select_buttons">
+      <button class="select_button_options" id="defense">defense!</button>
+      <button class="select_button_options" id="pokemonButton1">Pokemon1 Attack</button>
+      <button class="select_button_options" id="pokemonButton2">Pokemon2 Attack</button>
+      <button class="select_button_options" id="pokemonButton3">Pokemon3 Attack</button>
+    </div>
+  </div>
+  <p class="main_version">Version 1.0 v by larnU</p>
+  </div>
+  <script src="../js/battle.js"></script>
+</body>
+</html>
