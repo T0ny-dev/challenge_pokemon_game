@@ -97,7 +97,7 @@ ataque(botonataque3, pikachu, newtwo);
 
 const redireccion = ()=>{
   if (newtwo.health <= 0){
-    location.replace("/pages/endgame.html")
+    location.replace("../pages/endgame.html")
   } else {
     console.log("sigue vivo")
   }
